@@ -1,0 +1,5 @@
+1c1
+< Makefile: N'est pas un dossier.
+---
+> Makefile: Not a directory.
+reported error : 42

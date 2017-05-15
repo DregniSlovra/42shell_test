@@ -1,0 +1,19 @@
+			Shell_test.sh
+
+DESCRIPTION:
+
+	Script that tests a shell in comparision with tcsh.
+
+USAGE:
+
+	./shell_test [shell to test]
+	./shell_test [option]
+
+OPTIONS:
+
+	-r	Delete all log files in shell_test/test/logs
+
+	-h	Print usage
+
+Author
+	Guillaume "Dregni" Meslage, guillaume.meslage@epitech.eu
