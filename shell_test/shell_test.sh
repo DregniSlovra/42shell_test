@@ -1,11 +1,9 @@
 #!/bin/sh
 
-echo -e "\n\e[0;32m\t\t---Testing script for 42sh---\e[0m\n"
-
 prgm=$1
 if [ -x $prgm ] && [ ! -d $prgm ]
 then
-    echo -e "Testing $prgm\e[0m\n"
+    echo -e "Testing $prgm\e[0m"
 elif [ $1 ]
 then
     if [ $1 == -r ]
@@ -27,6 +25,8 @@ else
     echo -e "\n\t-r\tDelete all log files in shell_test/test/logs\n"
     exit
 fi
+
+echo -e "\n\e[0;32m\t\t---Testing script for 42sh---\e[0m\n"
 
 if [ "$(ls -A shell_test/test/logs)" ]
 then
