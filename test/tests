@@ -1,0 +1,45 @@
+ls
+ls -la
+ls sdlfjsdlj
+/bin/ls
+/msdljq/sqd
+./test_sigabort
+./test_sigsev
+./test_div_zero
+./test_simple_script.sh
+./test_noperm.sh
+./qpsmoldjkq.sh
+cd
+
+env
+setenv lol miam
+unsetenv lol
+unsetenv titi toto tata
+setenv toto
+unsetenv
+setenv
+setenv qsdmlj qsdlj qsdmk
+setenv -sqmlf dslfk
+setenv qsldkj-sqd qsdlkj
+setenv 2molkfqs sfklj
+setenv ls color=12
+unsetenv *
+echo $?
+echo "$?"
+echo -e \nls
+echo
+echo OK
+echo "OK"
+echo "pomkoj"klj
+echo "mlj"kj"
+cd
+cd fsqfdqs
+cd -
+cd ~
+cd ~/Documents
+cd /home
+cd --
+cd Makefile
+exit
+exitt
+\0

@@ -1,0 +1,80 @@
+reported error : 3
+
+39c39
+< SHLVL=3
+---
+> SHLVL=2
+47c47
+< PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/dregni/.bin:/bin:/opt/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+---
+> PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/dregni/.bin:/home/dregni/.bin:/home/dregni/.bin:/home/dregni/.bin
+51,57c51
+< _=/usr/bin/tcsh
+< HOSTTYPE=x86_64-linux
+< VENDOR=unknown
+< OSTYPE=linux
+< MACHTYPE=x86_64
+< GROUP=users
+< HOST=Dream-OS
+---
+> _=./../PSU_2016_42sh/42sh
+reported : 14
+
+39c39
+< SHLVL=3
+---
+> SHLVL=2
+47c47
+< PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/dregni/.bin:/bin:/opt/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+---
+> PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/dregni/.bin:/home/dregni/.bin:/home/dregni/.bin:/home/dregni/.bin
+51,57c51
+< _=/usr/bin/tcsh
+< HOSTTYPE=x86_64-linux
+< VENDOR=unknown
+< OSTYPE=linux
+< MACHTYPE=x86_64
+< GROUP=users
+< HOST=Dream-OS
+---
+> _=./../PSU_2016_42sh/42sh
+reported : 20
+
+1d0
+< -e
+reported : 29
+
+1c1
+< Unmatched '"'.
+---
+> Unmatched ".
+reported : 34
+
+1c1
+< fsqfdqs: Aucun fichier ou dossier de ce type.
+---
+> fsqfdqs: No such file or directory.
+reported : 36
+
+1d0
+< : Aucun fichier ou dossier de ce type.
+reported : 37
+
+1c1
+< /home/dregni/Documents: Aucun fichier ou dossier de ce type.
+---
+> /home/dregni/Documents: No such file or directory.
+reported : 39
+
+1c1
+< Makefile: Aucun fichier ou dossier de ce type.
+---
+> Makefile: No such file or directory.
+reported : 42
+
+0a1
+> exitt: Command not found.
+1d0
+< exitt: Command not found.
+reported : 44
+

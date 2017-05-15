@@ -1,0 +1,22 @@
+39c39
+< SHLVL=3
+---
+> SHLVL=2
+47c47
+< PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/dregni/.bin:/bin:/opt/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+---
+> PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/dregni/.bin:/home/dregni/.bin:/home/dregni/.bin:/home/dregni/.bin
+51,57c51
+< _=/usr/bin/tcsh
+< HOSTTYPE=x86_64-linux
+< VENDOR=unknown
+< OSTYPE=linux
+< MACHTYPE=x86_64
+< GROUP=users
+< HOST=Dream-OS
+---
+> _=./../PSU_2016_42sh/42sh
+return are differents :
+../PSU_2016_42sh/42sh : 254 
+tcsh : 0
+reported error : 20
