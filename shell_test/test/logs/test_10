@@ -1,5 +1,0 @@
-1c1
-< ./test_noperm.sh: Permission non accordée.
----
-> ./test_noperm.sh: Permission denied.
-reported error : 10
